@@ -18,7 +18,7 @@
     }
 
     .primary {
-        background-color: #01AFD1; 
+        background-color: #781D42; 
         height: 35px;
         width: 70px;
     }

@@ -82,11 +82,12 @@
       border-radius: 50%;
       transform: translate(-50%, -50%);
       cursor: pointer;
+      font-weight: bold ;
       color: rgb(94, 143, 158)
     }
     .rating li:hover {
-      background: #F8E71C;
-      color: #fff;
+      background: #DE834D;
+      color: #ffff;
     }
     /* Make actual radio select invisible */
     [type='radio'] {
@@ -94,7 +95,7 @@
     }
     /* Use the sibling select */
     [type='radio']:checked ~ label {
-      background: #F8E71C;
-      color: #fff;
+      background: #DE834D;
+      color: #ffff;
     }
   </style>

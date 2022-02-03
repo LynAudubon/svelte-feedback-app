@@ -44,7 +44,7 @@
 <form on:submit|preventDefault={handleSubmit}>
     <RatingSelect on:rating-select={handleSelect}/>
     <div class='input-group'>
-        <input type='text' on:input={handleInput} bind:value = {text} placeholder='Tell us something that keeps you comming back'>
+        <input type='text' on:input={handleInput} bind:value = {text} placeholder='Tell us something that keeps you coming back'>
         <Button disabled={btnDisabled} type='submit'>Send</Button>
     </div>
     <div class='message'>
@@ -69,7 +69,7 @@
   .input-group {
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(94, 143, 158);
+    border: 1.5px solid rgb(94, 143, 158);
     padding: 8px 10px;
     border-radius: 8px;
     margin: 15px;
